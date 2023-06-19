@@ -2,10 +2,9 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <AzureFunctionsVersion>v4</AzureFunctionsVersion>
-    <RootNamespace>azure_cdn_project</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.CosmosDB" Version="3.0.10" />
+    <PackageReference Include="Microsoft.Azure.Webjobs.Extensions.CosmosDB" Version="4.3.0" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.1" />
   </ItemGroup>
   <ItemGroup>
